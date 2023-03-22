@@ -1,6 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 const Reviews = () => {
+  const [review, setRewiew] = useState("");
+  useEffect(() => {
+    async function fetchData() {
+      let res = await axios.get(
+        "https://admin.tomedes.com/api/v1/get-reviews?page=1"
+      );
+      console.log("Res->", res?.data);
+      setRewiew(res.data);
+      console.log("Rev", review);
+    }
+    fetchData();
+  }, []);
   return (
     <>
       <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
