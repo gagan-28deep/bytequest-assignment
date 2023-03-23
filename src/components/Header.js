@@ -6,9 +6,9 @@ const Header = () => {
       <div class="grid grid-cols-1 lg:grid-cols-2">
         <div class="flex items-center justify-center px-4 py-10 sm:px-6 lg:px-8 sm:py-16 lg:py-24">
           <div class="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
-            <h2 class="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl">
+            <h3 class="text-2xl font-bold leading-tight text-black dark:text-white sm:text-4xl">
               Welcome to MediaCare+ Clinic
-            </h2>
+            </h3>
             <h1 class="text-3xl font-bold leading-tight text-indigo-700 dark:text-white text-6xl mt-5">
               Best Specialists
             </h1>

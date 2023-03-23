@@ -45,7 +45,7 @@ const Navbar = () => {
         <ul class="hidden lg:flex lg:items-center lg:justify-end grow mr-4">
           <li>
             <a
-              class="text-blue-600 md:font-bold dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 px-4 py-2 text-2xl"
+              class="text-blue-700 md:font-bold dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 px-4 py-2 text-xl"
               href="#"
             >
               Home
@@ -53,7 +53,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              class="text-blue-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 px-4 py-2 text-2xl"
+              class="text-blue-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 px-4 py-2 text-xl"
               href="#"
             >
               About
@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              class="text-blue-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 px-4 py-2 text-2xl"
+              class="text-blue-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 px-4 py-2 text-xl"
               href="#"
             >
               Services
@@ -69,7 +69,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              class="text-blue-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 px-4 py-2 text-2xl"
+              class="text-blue-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 px-4 py-2 text-xl"
               href="#"
             >
               News
@@ -78,7 +78,7 @@ const Navbar = () => {
 
           <li>
             <div>
-              <button class=" rounded-full bg-blue-700 px-20 py-2 text-base font-semibold leading-7 text-white hover:bg-indigo-500">
+              <button class=" rounded-full bg-blue-700 px-12 py-3 text-base font-semibold leading-7 text-white hover:bg-indigo-500">
                 Contact{" "}
               </button>
             </div>
